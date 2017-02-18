@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BDC32BF1-5F3D-477B-85A4-DF385BA23D33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DBCD0EAC-F515-4971-B852-02E0431C94BA}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuthServer", "src\AuthServer\AuthServer.xproj", "{EC99BC74-EC61-4D76-8936-AB8C173881BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC99BC74-EC61-4D76-8936-AB8C173881BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC99BC74-EC61-4D76-8936-AB8C173881BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC99BC74-EC61-4D76-8936-AB8C173881BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC99BC74-EC61-4D76-8936-AB8C173881BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC99BC74-EC61-4D76-8936-AB8C173881BF} = {BDC32BF1-5F3D-477B-85A4-DF385BA23D33}
+	EndGlobalSection
+EndGlobal
