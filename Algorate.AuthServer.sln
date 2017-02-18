@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuthServer", "src\AuthServer\AuthServer.xproj", "{EC99BC74-EC61-4D76-8936-AB8C173881BF}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuthServer", "src\AuthServer\AuthServer.xproj", "{E4E93B5A-D108-4503-BD8D-1D2CEA48E085}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuthServer.XUnitTests", "src\AuthServer.XUnitTests\AuthServer.XUnitTests.xproj", "{6F1AA28B-EE92-41B0-AFCB-C7EA167383CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +20,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EC99BC74-EC61-4D76-8936-AB8C173881BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC99BC74-EC61-4D76-8936-AB8C173881BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC99BC74-EC61-4D76-8936-AB8C173881BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC99BC74-EC61-4D76-8936-AB8C173881BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E93B5A-D108-4503-BD8D-1D2CEA48E085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E93B5A-D108-4503-BD8D-1D2CEA48E085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E93B5A-D108-4503-BD8D-1D2CEA48E085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E93B5A-D108-4503-BD8D-1D2CEA48E085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1AA28B-EE92-41B0-AFCB-C7EA167383CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1AA28B-EE92-41B0-AFCB-C7EA167383CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1AA28B-EE92-41B0-AFCB-C7EA167383CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1AA28B-EE92-41B0-AFCB-C7EA167383CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{EC99BC74-EC61-4D76-8936-AB8C173881BF} = {BDC32BF1-5F3D-477B-85A4-DF385BA23D33}
+		{E4E93B5A-D108-4503-BD8D-1D2CEA48E085} = {BDC32BF1-5F3D-477B-85A4-DF385BA23D33}
+		{6F1AA28B-EE92-41B0-AFCB-C7EA167383CE} = {BDC32BF1-5F3D-477B-85A4-DF385BA23D33}
 	EndGlobalSection
 EndGlobal
