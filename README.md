@@ -1,6 +1,6 @@
 # Algorate.App - [![Build status](https://ci.appveyor.com/api/projects/status/a7mlk4tg3t793l4c?svg=true)](https://ci.appveyor.com/project/Maranux/algorate-auth)
 
-The authentication server for the Algorate Algorithm Learning Assistant. IP: localhost:5001
+The authentication server for the Algorate Algorithm Learning Assistant. IP: localhost:5002
 
 ## Installation
 
@@ -10,7 +10,7 @@ The authentication server for the Algorate Algorithm Learning Assistant. IP: loc
 
 ## Usage
 
-This is the front end code for the application. The other components needed are the AuthServer and the API. Once they are downloaded
+This is the auth server for the application. The other components needed are the front end and the API. Once they are downloaded
 you can run them concurrently and they will communicate.
 
 ## Contributing
